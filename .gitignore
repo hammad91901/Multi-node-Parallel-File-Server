@@ -1,0 +1,33 @@
+# Build artifacts
+server/server
+server/server.exe
+server/build/
+server/*.o
+server/*.obj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Server files (optional - remove if you want to track test files)
+server_files/*.txt
+server_files/*.pdf
+server_files/*.doc
+
